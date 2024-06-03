@@ -1,0 +1,495 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+}
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 4vh 0;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+  }
+
+  .navbar-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #222;
+    height: 8vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 2vw;
+  }
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 5vw;
+  }
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    outline: 0;
+    border-bottom: solid 1px transparent;
+    -webkit-transition: color .5s ease-out, border-bottom-color .5s ease-out;
+        -moz-transition: color .5s ease-out, border-bottom-color .5s ease-out;
+        -ms-transition: color .5s ease-out, border-bottom-color .5s ease-out;
+            -o-transition: color .5s ease-out, border-bottom-color .5s ease-out;
+            transition: color .5s ease-out, border-bottom-color .5s ease-out;
+    &:hover {
+        color: #ffffff;
+        border-bottom: solid 1px #a80505;
+    }
+}
+
+.banner {
+    background-image: url('banner.png');
+    background-size: cover;
+    height: 15vh;
+    background-position: center;
+    color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;    
+    text-align: center;
+    padding: 20vh 0;
+}
+
+.banner h1 {
+    font-size: 4vw;
+    margin-bottom: 28vh;
+    margin-top: -110px;
+    margin-left: 11vw;
+    background-color: #0000002f;
+    border-radius: 10px 0px 10px 0px;
+    width: 75vw;
+    
+}
+
+.banner p {
+    margin-bottom: 2.5vh;
+    font-size: 2vw;
+    margin-left: 28vw;
+    background-color: #0000002f;
+    border-radius: 10px 0px 10px 0px;
+    width: 42vw;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    background-color: #a80505;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+
+P{
+    font-size: 125%;
+}
+
+
+/* SERVICES */
+
+
+.services-container {
+    background-color: #e7e7e7d7;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2vh;
+    height: 80vh;
+
+  }
+  
+  .services-container h3,p {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    font-family:"Bebas Neue", sans-serif;
+    letter-spacing: 0.2vw;
+  }
+.services {
+    padding: 10px 0;
+    text-align: center;
+    display: flex ;
+}
+
+.services h2 {
+    margin-top: 1vh;
+    font-size: 6vw;
+    margin-bottom: 40px;
+    font-family: "Special Elite", system-ui;
+   
+}
+
+.service-card {
+    background-color: #706f6f73;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80vw;
+    height: 6vw;
+    margin-bottom: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.service-card h3 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+
+/* ABOUT */
+
+
+
+.about-container {
+    background-color: #888888d7;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2vh;
+    height: 40vw;
+}
+
+.about-container h3,p {
+    color: #000000;
+    text-align: center;
+    margin-top: 2px;
+    font-family:"Bebas Neue", sans-serif;
+    letter-spacing: 0.2vw;    
+}
+.about-container p {
+    text-align: justify;
+    justify-content: center;
+    color: #000000;
+}
+.about {
+    padding: 10px 0;
+    text-align: center;
+    display: flex ;
+}
+
+.about h2 {
+    font-size: 6vw;
+    margin-bottom: 40px;
+    font-family: "Special Elite", system-ui;
+}
+
+.about-card {
+    background-color: #ffffff73;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 63vw;
+    height: 18vw;
+    margin-bottom: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 4vh 10vw 0vh 10vw;
+}
+
+.about-card h3 {
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+.about-card p {
+    font-size: 1.5vw;
+ 
+}
+
+
+/* CONTACT */
+
+
+.contact-container {
+    background-color: #e7e7e7d7;
+    color: #000000;
+    text-align: center;
+    height: 40vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    padding-top: 2vh;
+    
+}
+.contact-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contact-container h3,p {
+    color: #ffffff;
+    text-align: center;
+    height: 3vh; 
+    font-size:1.5vw ;
+}
+.contact {
+    padding: 10px 0;
+    text-align: center;
+    display: flex ;
+}
+
+.contact h2 {
+    margin-top: 1vh;
+    font-size: 6vw;
+    margin-bottom: 40px;
+    font-family: "Special Elite", system-ui;
+}
+
+.card-insta {
+    border-radius: 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 18vw;
+    height: 18vw;
+    
+}
+.card-insta img {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 4vw;
+}
+.card-insta img:hover {
+    box-shadow: 0 0 10px 5px #cf4403,
+              0 0 20px 7px #cf0358,
+              0 0 25px 20px #c511c5,
+              0 0 30px 25px #5a14ff;
+    border-radius: 4vw;
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: pointer;
+}
+.card-zap {
+    border-radius: 4vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 18vw;
+    height: 18vw;
+    
+}
+.card-zap img {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 4vw;
+}
+.card-zap img:hover {
+    box-shadow: 0 0 10px 5px #acffb3,
+              0 0 20px 7px #9dff89,
+              0 0 25px 20px #0b972a,
+              0 0 30px 25px #046d15;
+    border-radius: 4vw;
+    transform: scale(1.1);
+    transition: 0.1s;
+    cursor: pointer;
+}
+.contact-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0 0 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+}
+
+
+.footer-heading {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: wrap;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 15vh;
+}
+
+
+/*  CURSOR  */
+::-webkit-scrollbar {
+    display: block;
+  }
+  
+  /* Adicionar uma imagem como fundo para a área de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #f5c7c7;
+  }
+  
+  /* Estilizar o cursor da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-image: url('scissors.png');
+    background-size: 14px; /* ou outra propriedade de tamanho */
+    background-repeat: no-repeat; /* para evitar a repetição */
+  }
+
+
+
+/*   RESPONSIVE   */
+
+@media (max-width: 550px) {
+    .logo a{
+        font-size: 15px;
+    }
+    .nav-links li a {
+        font-size: 10px;
+    }
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-top: 20px;
+    }
+
+    .footer-content .footer-link {
+        margin-bottom: 20px;
+    }
+    
+    .service-card, .about-card {
+        transform: scale(0.8);
+
+    }
+    .cards{
+        margin-top: -10vw;
+    }
+    .services-container {
+        width: 100vw;
+        height: 80vw;
+        
+    }
+    .service-card{
+        margin-top: -6vw;
+    }
+    .contact-itens{
+        margin-top: -20px;
+    }
+    .about-card{
+        margin-top: -40px;
+    }
+    .banner h1{
+        font-size: 8vw;
+        margin-bottom: 80px;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .footer-container h3{
+        font-size: 5vw;
+       
+    }
+    .footer-container a{
+        font-size: 4vw;
+       
+    }
+    .logo{
+        display: none;
+    }
+    .navbar-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-links li>a{
+        font-size: 20px;
+    }
+}
